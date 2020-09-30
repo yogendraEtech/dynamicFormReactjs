@@ -1,0 +1,46 @@
+.form{margin-top: 50px;
+        .form-group-div{
+            margin: 20px auto;
+            .input-field{
+                margin-bottom: 10px;
+                label{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color:#808080
+                }
+                input{
+                    width: 96%;
+                    margin-left: 2%;
+                }
+                .error{
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: red;
+                    margin-left: 20px;
+                    margin-top: 6px;;
+                }
+            }
+            .submit-button{
+
+            }
+        }
+        .form-group-div:nth-last-child(2)::after{
+            content: "* Required fields" ;
+            margin: 10px;
+            font-weight: 600;
+            
+        }
+        .form-group-div:last-child{
+            display: flex;
+            justify-content: center;
+            button{
+                padding: 4px 25px
+            }
+        }
+        .loader-div{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+}
